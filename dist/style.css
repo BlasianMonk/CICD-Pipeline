@@ -1,0 +1,12 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; }
+* { box-sizing: border-box; }
+body { min-height: 100vh; display: grid; place-items: center; margin: 0; background: radial-gradient(circle at top, #263959, #0c1423 65%); color: #f2f6ff; padding: 2rem; }
+.card { width: min(100%, 650px); padding: clamp(1.5rem, 6vw, 3rem); border: 1px solid #4b6285; border-radius: 20px; background: #121f34; box-shadow: 0 20px 70px #0005; }
+.eyebrow { letter-spacing: .18em; font-size: .75rem; color: #8ebaff; font-weight: 700; }
+h1 { font-size: clamp(2rem, 5vw, 3.4rem); margin-bottom: .4rem; }
+p { line-height: 1.6; color: #c9d5e9; }
+.status { display: flex; align-items: center; gap: 1rem; background: #1d3450; padding: 1rem; border-radius: 12px; margin-top: 2rem; }
+#score { font-size: 2.4rem; font-weight: 800; color: #80e7b0; }
+#status { font-weight: 600; }
+.small { font-size: .78rem; }
+.footer { border-top: 1px solid #43516b; margin-top: 2rem; padding-top: 1rem; font-size: .85rem; }

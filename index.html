@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A CI/CD demo deployed with GitHub Actions">
+  <title>CI/CD Pipeline Demo</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="card">
+    <p class="eyebrow">GITHUB ACTIONS · CI/CD PROJECT</p>
+    <h1>Ship with confidence.</h1>
+    <p>Every change is checked automatically before deployment.</p>
+    <section aria-label="Demo test status" class="status">
+      <span id="score">Loading…</span>
+      <span id="status">Checking…</span>
+    </section>
+    <p class="small">Demo data shown; live workflow results are available in the repository's Actions tab.</p>
+    <p class="footer">Built with JavaScript · Node.js · GitHub Actions · <span id="year"></span></p>
+  </main>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
