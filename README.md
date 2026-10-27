@@ -29,11 +29,11 @@ Open `dist/index.html` with a local HTTP server, e.g. `npx serve dist` (this opt
 
 ## Publish
 
-1. Create a new public GitHub repository (for example `github-actions-cicd-demo`).
+1. Create a new public GitHub repository (for example `CICD-Pipeline`).
 2. Upload/push the project contents, **including the hidden `.github` directory**, to the `main` branch.
 3. In **Settings → Pages → Build and deployment**, set **Source** to **GitHub Actions**.
 4. In the **Actions** tab, verify **Continuous Integration** passes. **Deploy to GitHub Pages** should then run.
-5. Your site will appear at `https://YOUR_USERNAME.github.io/github-actions-cicd-demo/` (replace username and repository name if different).
+5. Your site will appear at `https://YOUR_USERNAME.github.io/CICD-Pipeline/` (replace username and repository name if different).
 6. Open a pull request with a change to `src/logic.js` or tests to demonstrate CI checks before merging.
 
 If GitHub Actions are restricted by repository/organization policy, enable them in Settings → Actions. GitHub Pages deployment permissions may also need approval for the `github-pages` environment.
